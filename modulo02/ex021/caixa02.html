@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: darkgray;
+        }
+        header{
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+            background-color: rgb(206, 206, 206);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            outline: auto black;
+            background-color: white;
+            padding-right: 10px;
+            padding-left: 5px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color:rgb(134, 134, 134);
+            text-decoration: underline;
+        }
+
+        main{
+            border-radius: 10px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: rgb(216, 216, 216);
+            border-radius: 10px 10px;
+            outline: auto;
+            padding: 5px;
+        }
+
+        article > aside {
+            font-size: 12px;
+            border-radius: 10px;
+            background-color: white;
+            margin: 4px;
+            text-align: right;
+            padding-right: 10px;
+            padding-left: 10px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+        }
+
+        footer{
+            border-radius: 10px;
+            background-color: rgb(80, 80, 80);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+            <section id="assuntos">
+
+            </section>
+            <section id="noticias">
+                <article>
+                    <h2>Sobre o Brasil</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate molestiae eligendi voluptatibus quod minima tenetur doloremque? Neque non distinctio quidem reiciendis excepturi magnam explicabo consequuntur minus rem in, libero modi?</p>
+                    <aside>Escrito por Igor Daniel Bobato</aside>
+                </article>
+            </section>
+    </main>
+    <footer>
+        Desenvolvido por Igor Daniel Bobato
+    </footer>
+</body>
+</html>

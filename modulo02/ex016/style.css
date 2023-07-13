@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to bottom, #3198E2, #6D59C0, #B93590, #E33F5F, #FDD579); /*Depois das cores pode colocar a porcentagem q quer na tela*/
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.379);
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+
+p{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
